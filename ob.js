@@ -54,7 +54,8 @@ let printOrderBook = async (id, symbol, depth) => {
           
           var tempObject = {
             "type": "bid",
-            "total": element[1], 
+            "total": element[1],
+            "price":element[0]
           }
           dataArray.push(tempObject)
         });

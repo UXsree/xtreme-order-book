@@ -14,231 +14,256 @@ OrderBook Object
 ----------------
 
 ```
-[
+[[
    {
       "type":"bid",
-      "total":238176
-   },
-   {
-      "type":"bid",
-      "total":8057
+      "total":9996000,
+      "price":7178.5
    },
    {
       "type":"bid",
-      "total":64820
+      "total":901208,
+      "price":7166
    },
    {
       "type":"bid",
-      "total":153956
+      "total":7235,
+      "price":7163.5
    },
    {
       "type":"bid",
-      "total":293540
+      "total":2440,
+      "price":7162
    },
    {
       "type":"bid",
-      "total":93165
+      "total":2600,
+      "price":7160
    },
    {
       "type":"bid",
-      "total":12257
+      "total":253916,
+      "price":7155
    },
    {
       "type":"bid",
-      "total":67201
+      "total":420,
+      "price":7154
    },
    {
       "type":"bid",
-      "total":204842
+      "total":374500,
+      "price":7151
    },
    {
       "type":"bid",
-      "total":37674
+      "total":290120,
+      "price":7150
    },
    {
       "type":"bid",
-      "total":274036
+      "total":4380,
+      "price":7135
    },
    {
       "type":"bid",
-      "total":37823
+      "total":750,
+      "price":7130
    },
    {
       "type":"bid",
-      "total":207021
+      "total":50680,
+      "price":7120
    },
    {
       "type":"bid",
-      "total":231989
+      "total":10000,
+      "price":7119
    },
    {
       "type":"bid",
-      "total":705705
+      "total":30000,
+      "price":7117
    },
    {
       "type":"bid",
-      "total":29092
+      "total":10500,
+      "price":7110
    },
    {
       "type":"bid",
-      "total":325899
+      "total":6500,
+      "price":7107.5
    },
    {
       "type":"bid",
-      "total":166318
+      "total":10000,
+      "price":7105.5
    },
    {
       "type":"bid",
-      "total":217634
+      "total":1000,
+      "price":7105
    },
    {
       "type":"bid",
-      "total":487146
+      "total":126345,
+      "price":7100.5
    },
    {
       "type":"bid",
-      "total":199128
+      "total":197322,
+      "price":7100
    },
    {
       "type":"bid",
-      "total":223427
+      "total":30000,
+      "price":7099.5
    },
    {
       "type":"bid",
-      "total":156360
+      "total":13500,
+      "price":7090
    },
    {
       "type":"bid",
-      "total":111172
+      "total":42099,
+      "price":7080
    },
    {
       "type":"bid",
-      "total":230823
+      "total":158000,
+      "price":7076
+   },
+   {
+      "type":"bid",
+      "total":10000,
+      "price":7072
    },
    {
       "type":"ask",
-      "total":587808,
-      "price":6832.5
+      "total":657325,
+      "price":7400
    },
    {
       "type":"ask",
-      "total":142734,
-      "price":6833
+      "total":4000,
+      "price":7400.5
    },
    {
       "type":"ask",
-      "total":69128,
-      "price":6833.5
+      "total":100,
+      "price":7401
    },
    {
       "type":"ask",
-      "total":162719,
-      "price":6834
+      "total":10000,
+      "price":7401.5
    },
    {
       "type":"ask",
-      "total":104113,
-      "price":6834.5
+      "total":5050,
+      "price":7402
    },
    {
       "type":"ask",
-      "total":950950,
-      "price":6835
+      "total":500,
+      "price":7402.5
    },
    {
       "type":"ask",
-      "total":47662,
-      "price":6835.5
+      "total":26,
+      "price":7404
    },
    {
       "type":"ask",
-      "total":106134,
-      "price":6836
+      "total":28000,
+      "price":7405
    },
    {
       "type":"ask",
-      "total":72868,
-      "price":6836.5
+      "total":693,
+      "price":7407
    },
    {
       "type":"ask",
-      "total":268961,
-      "price":6837
+      "total":50,
+      "price":7408
    },
    {
       "type":"ask",
-      "total":80360,
-      "price":6837.5
+      "total":50,
+      "price":7408.5
    },
    {
       "type":"ask",
-      "total":107445,
-      "price":6838
+      "total":50050,
+      "price":7409
    },
    {
       "type":"ask",
-      "total":119336,
-      "price":6838.5
+      "total":1250,
+      "price":7409.5
    },
    {
       "type":"ask",
-      "total":606353,
-      "price":6839
+      "total":1100,
+      "price":7410
    },
    {
       "type":"ask",
-      "total":504624,
-      "price":6839.5
+      "total":131488,
+      "price":7411
    },
    {
       "type":"ask",
-      "total":906477,
-      "price":6840
+      "total":300,
+      "price":7413
    },
    {
       "type":"ask",
-      "total":36969,
-      "price":6840.5
+      "total":1200,
+      "price":7413.5
    },
    {
       "type":"ask",
-      "total":230153,
-      "price":6841
+      "total":1000,
+      "price":7414
    },
    {
       "type":"ask",
-      "total":114070,
-      "price":6841.5
+      "total":70000,
+      "price":7414.5
    },
    {
       "type":"ask",
-      "total":12184,
-      "price":6842
+      "total":100,
+      "price":7416
    },
    {
       "type":"ask",
-      "total":61025,
-      "price":6842.5
+      "total":100,
+      "price":7416.5
    },
    {
       "type":"ask",
-      "total":246136,
-      "price":6843
+      "total":100,
+      "price":7417
    },
    {
       "type":"ask",
-      "total":188399,
-      "price":6843.5
+      "total":100,
+      "price":7417.5
    },
    {
       "type":"ask",
-      "total":578524,
-      "price":6844
+      "total":100,
+      "price":7418
    },
    {
       "type":"ask",
-      "total":469151,
-      "price":6844.5
+      "total":6000,
+      "price":7419
    }
 ]
 ```
