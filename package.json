@@ -1,0 +1,17 @@
+{
+  "name": "test-ob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ob"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.12.153",
+    "ololog": "^1.1.87",
+    "ws": "^5.1.1"
+  }
+}
