@@ -1,6 +1,7 @@
 "use strict";
 const util = require('util')
  var ws = require('./ws')
+ 
 // const database = require('./database');
 const log = require ('ololog').noLocate
     , ccxt =  require ('ccxt')
