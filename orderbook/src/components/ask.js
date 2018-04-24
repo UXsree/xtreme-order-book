@@ -1,21 +1,9 @@
 import React, { Component } from 'react';
 // import './App.css';
-import { Form, FormControl, Button, Table } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
+import NumberList from './numberlist';
 
-function NumberList(props) {
-  const numbers = props;
-  const listItems = props.numbers.data.map((number) =>
-  <tr key={number.toString()}>
-    <td>{number.type}</td>
-    <td>{number.total}</td>
-    <td>{number.price}</td>
-  </tr>
-  );
-  console.log("props from inside NumberList: ", props.numbers.data);
-  return (
-    <tbody>{listItems}</tbody>
-  );
-}
+
 
 class Ask extends Component {
   constructor(props){
@@ -27,7 +15,7 @@ class Ask extends Component {
   }
   render(){
     return(
-      <div className="container">
+      <div className="">
         
 <Table striped bordered condensed hover className="orderBook">
   <thead>

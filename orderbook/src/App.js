@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 // import './components/bid';
 import Ask from './components/ask';
+import Bid from './components/bid';
 // var sock = new WebSocket("ws://localhost:7979");
 
 class App extends Component {
@@ -294,10 +294,20 @@ class App extends Component {
   
 
   render() {
-
+    console.log("state inside app.js main container", this.state);
     return (
-      <div className="App">
-        <Ask data={this.state}/>
+      <div className="App container">
+        <div className="orderBookHeading">OrderBook</div>
+        <Ask data={this.state.data.filter(
+          function(buyorsell) {
+          return buyorsell.type == 'ask';
+          })}
+        />
+        <Bid data={this.state.data.filter(
+          function(buyorsell) {
+          return buyorsell.type == 'bid';
+          })}
+        />
       </div>
     );
   // console.log("this.state.data from render: ");
