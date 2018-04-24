@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import './App.css';
 import { Table } from 'react-bootstrap';
 import NumberList from './numberlist';
 
@@ -25,10 +24,10 @@ class Ask extends Component {
       <th>Total</th>
     </tr>
   </thead>
-  <NumberList numbers={this.props.data}/>
+  <NumberList num={this.props.data}/>
 </Table>
       </div>
-    )
+    );
   }
 }
 
