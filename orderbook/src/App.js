@@ -36,9 +36,16 @@ class App extends Component {
     return (
       <div className="App container">
         <div className="orderBookHeading">OrderBook</div>
-        <Ask data={this.state.data}
+         <Ask data={this.state.data.filter(
+          function(buyorsell) {
+          return buyorsell.type == 'ask';
+          })}
         />
-        
+        <Bid data={this.state.data.filter(
+          function(buyorsell) {
+          return buyorsell.type == 'bid';
+          })}
+        />
       </div>
     );
   // console.log("this.state.data from render: ");

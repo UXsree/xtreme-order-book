@@ -9,7 +9,7 @@ class Bid extends Component {
     super(props);
     this.state={
     }
-    console.log("props from ask or sell: ");
+    console.log("props from Bid: ");
   console.log(this.props.data);
   }
   render(){
@@ -24,7 +24,7 @@ class Bid extends Component {
       <th>Total</th>
     </tr>
   </thead>
-  <NumberList numbers={this.props.data}/>
+  <NumberList num={this.props.data}/>
 </Table>
       </div>
     )
